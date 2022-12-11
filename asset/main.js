@@ -9,6 +9,8 @@ function getCrashPoint() {
 
 // Function to start the game
 function startGame() {
+    document.getElementById('play').disabled = true;
+    // Clear the crash point and winnings
     document.getElementById('winnings').innerHTML = ""
     document.getElementById('losing').innerHTML = ""
     // Get the bet value from the input field
@@ -24,6 +26,7 @@ function startGame() {
         document.getElementById('crashPoint').innerHTML = countdown.toFixed(2);
         if (countdown.toFixed(2) == crashPoint) {
             clearInterval(interval);
+            document.getElementById('play').disabled = false;
             if (document.getElementById('winnings').innerHTML == "") { calculateWinnings(); }
 
         }
