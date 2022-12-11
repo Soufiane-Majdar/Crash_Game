@@ -1,5 +1,5 @@
 # Crash_Game
-Demo : 
+Demo : https://soufiane-majdar.github.io/Crash_Game/
 
 ## Lost :
 <img src="lost.png"/>
