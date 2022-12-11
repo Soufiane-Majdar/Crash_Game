@@ -1,0 +1,29 @@
+      body {
+        text-align: center;
+      }
+      input {
+        margin: 5px;
+        padding: 5px;
+        font-size: 16px;
+      }
+      button {
+        margin: 5px;
+        padding: 5px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      #game {
+        margin: 20px;
+        padding: 10px;
+        border: 1px solid black;
+        width: 80px;
+        height: 80px;
+        text-align: center;
+       
+      }
+
+
+      .form-control:focus {
+        border-color: #28a745;
+        box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+      }
