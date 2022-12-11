@@ -34,13 +34,21 @@
       <span id="crashPoint" class="text-secondary"></span>
     </div>
     <br />
-    <div class="input-group w-50  shadow-none p-3 mb-5 bg-light rounded">
-      <button onclick="startGame()" class="w-10 btn btn-lg btn-outline-secondary">Start Game</button>
+    <div class="input-group w-60 mb-1 shadow-none p-3 bg-light rounded">
       <input type="text" id="bet" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Enter your bet" >
       <!-- add button Take Winnings-->
-      <button onclick="takeWinnings()" class="w-10 btn btn-lg btn-secondary">Take Winnings</button>
 
     </div>
+
+    <div class="w-100 mb-5 ">
+        <center class"ms-2 me-2">
+      <button onclick="startGame()" class="btn btn-lg btn-outline-secondary">Start Game</button>
+      <!-- add button Take Winnings-->
+      <button onclick="takeWinnings()" class="btn btn-lg btn-secondary">Take Winnings</button>
+        </center>
+    </div>
+  
+
 
     <br />
     <span id="winnings" class="text-success"></span>
